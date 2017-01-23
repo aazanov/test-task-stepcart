@@ -2,6 +2,13 @@
 Thumbs.db
 ehthumbs.db
 
+# Folders
+node_modules/
+_notes/
+
+# Images
+*.png
+
 # Folder config file
 Desktop.ini
 
