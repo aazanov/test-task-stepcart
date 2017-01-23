@@ -6,3 +6,7 @@ body {
 a {
   color: #00B7FF;
 }
+
+input[type=button]{
+    margin: 1em 0;
+}

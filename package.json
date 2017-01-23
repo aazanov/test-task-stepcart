@@ -1,6 +1,6 @@
 {
   "name": "stepcard",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -13,5 +13,10 @@
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "description": "Create a million messages on client ",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "Azanov A.",
+  "license": "ISC"
 }

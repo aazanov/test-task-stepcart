@@ -1,6 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
- 
+    h1= title
+    p Welcome to #{title}
+    form
+        fieldset
+            legend Введите данные для отправки на сервер
+            textarea(placeholder="Description", id="description")
+            br
+            input(type="number", id="count", placeholder="Количество сообщений")
+            br
+            span По умолчанию 1 млн.
+            br
+            input(type="button", value="Отправить", id="send")
+    span(id="status") Статус
+    script(src="javascripts/actions.js")
